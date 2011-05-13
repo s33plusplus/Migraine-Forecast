@@ -1,0 +1,1 @@
+An Atmel AVR will be used as the core of the weather monitoring hardware; the GCC supports AVR and therefore isn't bound to any particular OS, and I have no experience with any other MCU.

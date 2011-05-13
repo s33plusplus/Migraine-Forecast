@@ -1,0 +1,9 @@
+This is a project aimed at predicting weather-triggered migraines through either local inexpensive hardware, or if available, a (very!) nearby weather station.
+In my area of Michigan the weather is so erratic that it can be almost impossible to catch one of these early enough to abort it, and with the frequency of these debilitating headaches increasing, it has brought my life to a grinding halt.
+All of the "migraine weather trackers" out there are either out of my budget or obviously re-branded outdoor temperature sensors, and knowing the hardware is incredibly inexpensive, I figure an open source weather probe and specialized logging software will help many people in my position.
+
+The software will consist of a weather logging component, along with a "headache diary" to compare against the weather data.
+The hardware will be a simple microcontroller with ambient temperature, barometric pressure, relative humidity, and ambient light sensors logging data to either a computer or mass storage device.
+From my personal experience, migraines aren't triggered by one element of the weather rapidly shifting; out of the past 3 I've suffered from and remembered to track, the trigger lies in a shift in humidity, atmospheric pressure, temperature, and the dew point happening concurrently. However, I do not have a large enough dataset to confirm this yet.
+
+As migraines vary from person to person, YMMV, so there is no way I can guarantee this will do you any good whatsoever! I'm making this a open project purely based on the hope that it will benefit someone else.

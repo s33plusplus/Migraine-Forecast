@@ -1,0 +1,3 @@
+An Atmel AVR will be used as the core of the weather monitoring hardware; the GCC supports AVR and therefore isn't bound to any particular OS, and I have no experience with any other MCU.
+
+Additionally, PCB and schematics will be in Kicad's native format, simply because there is no risk of vendor lock-in (like Eagle)
